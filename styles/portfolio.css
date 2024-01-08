@@ -17,7 +17,6 @@ body {
   padding: 15px 35px;
 }
 
-
 /* Nav Related Styles */
 nav {
   display: flex;
@@ -50,12 +49,16 @@ nav a {
 /* header related style */
 .header {
   background-color: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .profile-pic {
@@ -63,13 +66,34 @@ nav a {
   height: 676px;
 }
 
-.banner-title {
-  color: #181818;
-  font-size: 85px;
-  font-weight: 700;
-}
 .greetings {
   color: #474747;
   font-size: 45px;
   font-weight: 600;
+  margin-bottom: 0;
 }
+
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-dis {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /*166.667% */
+  max-width: 580px;
+  max-height: 60px;
+  margin-bottom: 30px;
+}
+
+
+/* Main section Style */
+
+
+
+/* about section Style */
