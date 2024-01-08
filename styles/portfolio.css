@@ -1,6 +1,6 @@
 /* Common Shared Styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .text-primary {
@@ -17,11 +17,13 @@ body {
   padding: 15px 35px;
 }
 
+
 /* Nav Related Styles */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -33,7 +35,6 @@ nav {
 nav > ul {
   display: flex;
   align-items: center;
-
 }
 
 nav li {
@@ -44,4 +45,31 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* header related style */
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 584px;
+  height: 676px;
+}
+
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+.greetings {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
 }
