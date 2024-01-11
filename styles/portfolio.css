@@ -117,14 +117,63 @@ main {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
-  margin: 130px 0; 
+  margin: 130px 0;
 }
 
-.about-info-container{
+.about-info-container {
   display: flex;
   justify-content: space-around;
 }
 
-.about-info{
+.about-info {
   text-align: center;
+}
+
+.info-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2px;
+}
+
+.info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+#what-i-do-des {
+  padding: 30px 150px;
+}
+
+/* What I do Section */
+
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill {
+  width: 267px;
+  height: 377px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  color: #181818;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill-description {
+  width: 201px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
